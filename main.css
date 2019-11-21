@@ -1,0 +1,16 @@
+body{
+    background-color: lightsteelblue;
+    /*background-image: url("images/DesMoines2.jpeg");
+    background-repeat: no-repeat;*/
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+.pics{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
