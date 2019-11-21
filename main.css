@@ -1,5 +1,5 @@
 body{
-    background-color: lightyellow;
+    background-color: orange;
     display: flex;
     flex-direction: column;
     display: grid;
@@ -11,14 +11,20 @@ h1{
 h2{
     text-decoration: underline;
 }
-.pics{
-    width: 300px;
-    height: 300px;
-    margin: 50px;
-}
 .grid-container{
     display: inline-grid;
     grid-template-rows: auto;
     grid-row-gap: 05px;
     justify-content: space-evenly;
+}
+.p01{
+    margin-top: 01px;
+}
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 50px;
 }
