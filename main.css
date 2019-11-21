@@ -1,10 +1,12 @@
 body{
-    background-color: lightsteelblue;
-    /*background-image: url("images/DesMoines2.jpeg");
-    background-repeat: no-repeat;*/
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    display: grid;
 }
 h1{
     text-align: center;
+    text-decoration: underline;
 }
 h2{
     text-decoration: underline;
@@ -13,4 +15,10 @@ h2{
     width: 300px;
     height: 300px;
     margin: 50px;
+}
+.grid-container{
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-row-gap: 05px;
+    justify-content: space-evenly;
 }
